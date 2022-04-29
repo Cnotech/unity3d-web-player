@@ -80,15 +80,9 @@ function swf_onload() {
     f("attrs", i) || {}
   );
   var q = {
-      backgroundcolor: "74b4ff",
-      bordercolor: "74b4ff",
+      backgroundcolor: "000000",
+      bordercolor: "000000",
       textcolor: "FFFFFF",
-      logoimage:
-        "./img/loadersplash1.png",
-      progressbarimage:
-        "./img/loaderBar_fill1.png",
-      progressframeimage:
-        "./img/loaderBar_bg1.png",
       disableExternalCall: true,
       disableContextMenu: true,
       disableFullscreen: false,

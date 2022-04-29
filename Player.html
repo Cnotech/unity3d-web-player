@@ -29,17 +29,11 @@
 		/********************************
 			可编辑区
 		********************************/
-		var _src_ = 'game.unity3d'; //游戏swf
-		var _wid_ = 640; //宽
-		var _hei_ = 480; //高
-
+		var _src_ = 'game.unity3d'; //更改此处游戏名
+		var _wid_ = 640;
+		var _hei_ = 480;
 		var _spt_ = 0;
-		var _net_ = 0; //允许广告改为 1
-
-		/********************************
-			下面内容不允许编辑
-		********************************/
-		// flash attribute extend
+		var _net_ = 0;
 		var swfAttrs = {
 			src: _src_,
 			width: _wid_,
@@ -56,12 +50,9 @@
 
 <body style="text-align: center; overflow: hidden;">
 	<div id="player" style="width: 1920px; height: 938px; visibility: visible;"><embed type="application/vnd.unity"
-			width="1920px" height="938px" tabindex="0" backgroundcolor="74b4ff" bordercolor="74b4ff" textcolor="FFFFFF"
-			logoimage="./img/loadersplash1.png"
-			progressbarimage="./img/loaderBar_fill1.png"
-			progressframeimage="./img/loaderBar_bg1.png"
+			width="1920px" height="938px" tabindex="0" backgroundcolor="000000" bordercolor="000000" textcolor="FFFFFF"
 			disableexternalcall="true" disablecontextmenu="true" disablefullscreen="true"
-			firstframecallback="unityObject.firstFrameCallback();" src="game.unity3d"
+			firstframecallback="unityObject.firstFrameCallback();"
 			style="display: block; width: 1920px; height: 938px;"></div>
 	<script language="JavaScript" src="./UnityObject.js" charset="utf-8"></script>
 	<script type="text/javascript" src="./iframe-app.js"></script>
