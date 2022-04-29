@@ -1,0 +1,72 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0070)http://flash.7k7k.com/cms/cms10/20130410/1525284392/13213/unity3d.html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Unity3D Web Player</title>
+	<style type="text/css">
+		html {
+			width: 100%;
+			height: 100%;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #000;
+		}
+
+		div {
+			margin: 0 auto;
+		}
+	</style>
+	<script type="text/javascript">
+		var Iframe_Ver = "1.0";
+		var FlashPlayer_Ver = "unity3d 3.5";
+		/********************************
+			可编辑区
+		********************************/
+		var _src_ = 'game.unity3d'; //游戏swf
+		var _wid_ = 640; //宽
+		var _hei_ = 480; //高
+
+		var _spt_ = 0;
+		var _net_ = 0; //允许广告改为 1
+
+		/********************************
+			下面内容不允许编辑
+		********************************/
+		// flash attribute extend
+		var swfAttrs = {
+			src: _src_,
+			width: _wid_,
+			height: _hei_
+		};
+		// flashvars extend
+		var swfPars = {};
+		// flashvars extend
+		var swfVars = {};
+		if (!_spt_) swfPars.allowScriptAccess = "never";
+		if (_net_) swfPars.allowNetworking = "all";
+	</script>
+</head>
+
+<body style="text-align: center; overflow: hidden;">
+	<div id="player" style="width: 1920px; height: 938px; visibility: visible;"><embed type="application/vnd.unity"
+			width="1920px" height="938px" tabindex="0" backgroundcolor="74b4ff" bordercolor="74b4ff" textcolor="FFFFFF"
+			logoimage="./img/loadersplash1.png"
+			progressbarimage="./img/loaderBar_fill1.png"
+			progressframeimage="./img/loaderBar_bg1.png"
+			disableexternalcall="true" disablecontextmenu="true" disablefullscreen="true"
+			firstframecallback="unityObject.firstFrameCallback();" src="game.unity3d"
+			style="display: block; width: 1920px; height: 938px;"></div>
+	<script language="JavaScript" src="./UnityObject.js" charset="utf-8"></script>
+	<script type="text/javascript" src="./iframe-app.js"></script>
+	<script type="text/javascript">App.init();</script>
+
+</body>
+
+</html>
