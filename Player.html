@@ -30,6 +30,10 @@
 			可编辑区
 		********************************/
 		var _src_ = 'game.unity3d'; //更改此处游戏名
+		// 从URL参数读取游戏名
+		if(window.location.search.indexOf("load=")!=-1){
+			_src_=window.location.search.split("load=")[1]
+		}
 		var _wid_ = 640;
 		var _hei_ = 480;
 		var _spt_ = 0;
