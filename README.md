@@ -1,5 +1,5 @@
 # Unity3D Web Player
-此 Web 播放器修改自 7k7k.com 提供的 Unity3D 小游戏页面，并附带了一个忍者斩铁剑游戏（`game.unity3d`），将此文件替换为其他 `.unity3d` 文件即可播放你的自定义小游戏。
+此 Web 播放器修改自 7k7k.com 提供的 Unity3D 小游戏页面，并附带了一个忍者斩铁剑游戏（`game.unity3d`）。
 
 ## 加载自定义游戏文件
 1. 替换根目录中的 `game.unity3d` 文件。
