@@ -9,3 +9,6 @@
 
 1. 直接替换根目录中的 `game.unity3d` 文件。
 2. 访问 `Player.html` 时追加参数 `?load=xxx.unity3d`，例如 `Player.html?load=newgame.unity3d`。支持使用相对路径和 URL 绝对路径，例如 `Player.html?load=../lego.unity3d`，`Player.html?load=http://flash.7k7k.com/cms/cms10/20130522/1531254229/dd/lego.unity3d`。当不提供 `load` 参数时游戏会默认加载根目录中的 `game.unity3d`。
+
+## Used by
+[Flash Collector](https://github.com/Cnotech/flash-collector)
